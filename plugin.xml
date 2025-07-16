@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="phinhas.perspective.EmployeeManagmentPerspective"
+            id="phinhas.perspective.EmployeeManagment"
+            name="Employee Managment">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="phinhas.views.RegionsView"
+            id="phinhas.views.regions"
+            name="Regions"
+            restorable="true">
+      </view>
+      <view
+            class="phinhas.views.CountriesView"
+            id="phinhas.views.countries"
+            name="Countries"
+            restorable="true">
+      </view>
+      <view
+            class="phinhas.views.DepartmentsView"
+            id="phinhas.views.departments"
+            name="Departments"
+            restorable="true">
+      </view>
+      <view
+            class="phinhas.views.ManagementHierarchy"
+            id="phinhas.views.managementHierarchy"
+            name="Management Hierarchy"
+            restorable="true">
+      </view>
+      <view
+            class="phinhas.views.JobsView"
+            id="phinhas.views.jobs"
+            name="Jobs"
+            restorable="true">
+      </view>
+   </extension>
+
+</plugin>

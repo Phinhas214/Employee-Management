@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Employee_Managment
+Bundle-SymbolicName: Employee_Managment;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: phinhas.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: Employee.Managment
+Bundle-ActivationPolicy: lazy
